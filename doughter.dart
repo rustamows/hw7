@@ -1,12 +1,8 @@
 import 'mather.dart';
-import 'grednmather.dart';
 
-class Doughter extends Grednmather{
-  int age;
-  Doughter (super.name, super.address,this.age);
-  
-  @override
-  sound() {
-    print('Doughter');
-  }
+class Doughter extends Mather{
+ String phone;
+ Doughter(this.phone,super.name,super.address,super.age);
+
+
 }

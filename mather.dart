@@ -5,8 +5,5 @@ class Mather extends Grednmather{
   Mather (super.name,super.address,this.age);
  
 
-  @override
-  sound() {
-   print('Mather');
-  }
+  
 }
