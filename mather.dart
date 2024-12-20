@@ -1,7 +1,9 @@
 import 'grednmather.dart';
 
 class Mather extends Grednmather{
-  Mather (super.name,super.address);
+  String age;
+  Mather (super.name,super.address, this.age);
+ 
 
   @override
   sound() {

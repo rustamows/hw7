@@ -1,8 +1,8 @@
 import 'grednmather.dart';
 
 class Doughter extends Grednmather{
-  Doughter(super.name, super.address);
-
+  String phone;
+  Doughter(super.name, super.address,this.phone);
   
   @override
   sound() {
